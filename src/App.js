@@ -3,9 +3,9 @@ import { Route } from 'react-router-dom';
 import './App.css';
 import { Home, About, Contact, Navigation } from './components';
 
-<Route path="/" exact component={Index} />
+<Route exact path="/" exact component={Home} />
 <Route path="/about/" component={About} />
-<Route path="/users/" component={Users} />
+<Route path="/contact/" component={Contact} />
 
 const App = () => (
   <div>
